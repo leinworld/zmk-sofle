@@ -78,11 +78,11 @@
 
         ToLayer {
             bindings = <
-&none  &goto_layer 4  &goto_layer 2  &goto_layer 3  &none  &none     &mmv MOVE_UP     &none  &none  &none  &none  &none  &none
-&none  &none          &none          &none          &none  &none     &mmv MOVE_DOWN   &none  &none  &none  &none  &none  &none
-&none  &none          &none          &none          &none  &none     &mmv MOVE_LEFT   &none  &none  &none  &none  &none  &none
-&none  &none          &none          &none          &none  &none     &mmv MOVE_RIGHT  &none  &none  &none  &none  &none  &none
-&none  &none          &none          &none          &none  &trans    &mkp LCLK        &none  &none  &none  &none  &none
+&none  &goto_layer 0  &goto_layer 4  &goto_layer 2  &goto_layer 3  &none     &mmv MOVE_UP     &none  &none  &none  &none  &none  &none
+&none  &none          &none          &none          &none          &none     &mmv MOVE_DOWN   &none  &none  &none  &none  &none  &none
+&none  &none          &none          &none          &none          &none     &mmv MOVE_LEFT   &none  &none  &none  &none  &none  &none
+&none  &none          &none          &none          &none          &none     &mmv MOVE_RIGHT  &none  &none  &none  &none  &none  &none
+&none  &none          &none          &none          &none          &trans    &mkp LCLK        &none  &none  &none  &none  &none
             >;
 
             display-name = "ToLayer";
