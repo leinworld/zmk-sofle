@@ -68,7 +68,7 @@
 &kp TAB           &kp Q     &kp W         &kp E         &kp R   &kp T     &msc SCRL_DOWN   &kp Y      &kp U      &kp I             &kp O    &kp P       &kp BSLH
 &kp LEFT_CONTROL  &kp A     &kp S         &kp D         &kp F   &kp G     &msc SCRL_LEFT   &kp H      &kp J      &kp K             &kp L    &kp SEMI    &kp APOS
 &kp LSHFT         &kp Z     &kp X         &kp C         &kp V   &kp B     &msc SCRL_RIGHT  &kp N      &kp M      &kp COMMA         &kp DOT  &kp FSLH    &kp RIGHT_SHIFT
-&kp C_MUTE        &kp CAPS  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &tog 2    &mkp MB3         &kp ENTER  &kp SPACE  &kp LANG_HANGEUL  &tog 3   &kp DELETE
+&kp C_MUTE        &kp CAPS  &kp LEFT_GUI  &kp LEFT_ALT  &mo 4   &mo 1     &mkp MB3         &kp ENTER  &kp SPACE  &kp LANG_HANGEUL  &tog 3   &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -76,16 +76,16 @@
             label = "Base";
         };
 
-        Sub {
+        ToLayer {
             bindings = <
-&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &mmv MOVE_UP     &kp F6     &kp F7    &kp F8      &kp F9     &kp F10           &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &kp PG_UP  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans     &trans    &kp INSERT  &kp F11    &kp F12           &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans     &trans    &trans      &trans     &trans
+&none  &goto_layer 4  &goto_layer 2  &goto_layer 3  &none  &none     &mmv MOVE_UP     &none  &none  &none  &none  &none  &none
+&none  &none          &none          &none          &none  &none     &mmv MOVE_DOWN   &none  &none  &none  &none  &none  &none
+&none  &none          &none          &none          &none  &none     &mmv MOVE_LEFT   &none  &none  &none  &none  &none  &none
+&none  &none          &none          &none          &none  &none     &mmv MOVE_RIGHT  &none  &none  &none  &none  &none  &none
+&none  &none          &none          &none          &none  &trans    &mkp LCLK        &none  &none  &none  &none  &none
             >;
 
-            display-name = "Sub";
+            display-name = "ToLayer";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -97,6 +97,8 @@
 &trans  &trans  &trans   &kp LC(C)  &kp LC(V)  &trans    &trans  &kp PAUSE_BREAK  &kp C_AC_BACK  &kp C_AC_FORWARD  &trans         &trans  &trans
 &trans  &trans  &trans   &trans     &trans     &trans    &trans  &trans           &trans         &trans            &trans         &trans
             >;
+
+            label = "VS";
         };
 
         DeviceCtrl {
@@ -106,6 +108,20 @@
 &trans  &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &trans  &trans           &trans                          &trans           &trans           &trans           &trans
 &trans  &sys_reset    &trans          &bootloader   &trans        &trans          &trans  &trans           &trans                          &sys_reset       &soft_off        &bootloader      &trans
 &trans  &trans        &trans          &trans        &trans        &trans          &trans  &trans           &trans                          &trans           &trans           &trans
+            >;
+
+            sensor-bindings = <&scroll_encoder>;
+            label = "DeviveCtrl";
+        };
+
+        Sub {
+            display-name = "Sub";
+            bindings = <
+&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &mmv MOVE_UP     &kp F6     &kp F7    &kp F8      &kp F9     &kp F10           &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &kp PG_UP  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
+&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans     &trans    &kp INSERT  &kp F11    &kp F12           &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans     &trans    &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
