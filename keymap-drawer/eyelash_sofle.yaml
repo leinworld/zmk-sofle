@@ -67,10 +67,10 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   ToLayer:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&goto_layer'
   - '&goto_layer 4'
   - '&goto_layer 2'
   - '&goto_layer 3'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
