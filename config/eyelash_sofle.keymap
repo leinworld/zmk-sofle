@@ -78,11 +78,11 @@
 
         ToLayer {
             bindings = <
-&none  &goto_layer 0  &goto_layer 4  &goto_layer 2  &goto_layer 3  &none     &mmv MOVE_UP     &none  &none  &none  &none  &none  &none
-&none  &none          &none          &none          &none          &none     &mmv MOVE_DOWN   &none  &none  &none  &none  &none  &none
-&none  &none          &none          &none          &none          &none     &mmv MOVE_LEFT   &none  &none  &none  &none  &none  &none
-&none  &none          &none          &none          &none          &none     &mmv MOVE_RIGHT  &none  &none  &none  &none  &none  &none
-&none  &none          &none          &none          &none          &trans    &mkp LCLK        &none  &none  &none  &none  &none
+&none  &goto_layer 0  &goto_layer 4  &goto_layer 2  &goto_layer 3  &none    &mmv MOVE_UP     &none  &none  &none  &none  &none  &none
+&none  &none          &none          &none          &none          &none    &mmv MOVE_DOWN   &none  &none  &none  &none  &none  &none
+&none  &none          &none          &none          &none          &none    &mmv MOVE_LEFT   &none  &none  &none  &none  &none  &none
+&none  &none          &none          &none          &none          &none    &mmv MOVE_RIGHT  &none  &none  &none  &none  &none  &none
+&none  &none          &none          &none          &none          &mo 1    &mkp LCLK        &none  &none  &none  &none  &none
             >;
 
             display-name = "ToLayer";
@@ -95,7 +95,7 @@
 &trans  &kp F5  &kp F6   &kp F7     &kp F8     &trans    &trans  &kp HOME         &kp END        &kp PAGE_UP       &kp PAGE_DOWN  &trans  &trans
 &trans  &kp F9  &kp F10  &kp F11    &kp F12    &trans    &trans  &kp LEFT         &kp DOWN       &kp UP_ARROW      &kp RIGHT      &trans  &trans
 &trans  &trans  &trans   &kp LC(C)  &kp LC(V)  &trans    &trans  &kp PAUSE_BREAK  &kp C_AC_BACK  &kp C_AC_FORWARD  &trans         &trans  &trans
-&trans  &trans  &trans   &trans     &trans     &trans    &trans  &trans           &trans         &trans            &trans         &trans
+&trans  &trans  &trans   &trans     &trans     &mo 1     &trans  &trans           &trans         &trans            &trans         &trans
             >;
 
             label = "VS";
@@ -107,7 +107,7 @@
 &trans  &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &trans  &trans           &trans                          &trans           &trans           &trans           &trans
 &trans  &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &trans  &trans           &trans                          &trans           &trans           &trans           &trans
 &trans  &sys_reset    &trans          &bootloader   &trans        &trans          &trans  &trans           &trans                          &sys_reset       &soft_off        &bootloader      &trans
-&trans  &trans        &trans          &trans        &trans        &trans          &trans  &trans           &trans                          &trans           &trans           &trans
+&trans  &trans        &trans          &trans        &trans        &mo 1           &trans  &trans           &trans                          &trans           &trans           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -121,7 +121,7 @@
 &trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &kp PG_UP  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
 &trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans     &trans    &kp INSERT  &kp F11    &kp F12           &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans     &trans    &trans      &trans     &trans
+&trans     &trans  &trans  &trans  &trans  &mo 1     &mkp LCLK        &trans     &trans    &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
