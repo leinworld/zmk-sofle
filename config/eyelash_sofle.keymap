@@ -47,6 +47,18 @@
     behaviors {
     };
 
+    macros {
+        goto_layer: goto_layer {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings =
+                <&macro_press>,
+                <&macro_param_1to1 &to MACRO_PLACEHOLDER>;
+
+            label = "GOTO_LAYER";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
