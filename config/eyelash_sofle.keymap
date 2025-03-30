@@ -54,9 +54,11 @@
             bindings =
                 <&macro_press>,
                 <&mkp MB2>,
-                <&macro_tap>,
+                <&macro_press>,
                 <&macro_param_1to1 &kp MACRO_PLACEHOLDER>,
                 <&macro_pause_for_release>,
+                <&macro_release>,
+                <&macro_param_1to1 &kp MACRO_PLACEHOLDER>,
                 <&macro_release>,
                 <&mkp MB2>;
 
@@ -69,9 +71,11 @@
             bindings =
                 <&macro_press>,
                 <&mkp MB2>,
-                <&macro_tap>,
+                <&macro_press>,
                 <&macro_param_1to1 &mmv MACRO_PLACEHOLDER>,
                 <&macro_pause_for_release>,
+                <&macro_release>,
+                <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
                 <&macro_release>,
                 <&mkp MB2>;
 
