@@ -54,6 +54,13 @@
             bindings = <&mkp MB2 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "RMB_KP";
         };
+
+        rmb_mmv: rmb_mmv {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings = <&mkp MB2 &macro_param_1to1 &mmv MACRO_PLACEHOLDER>;
+            label = "RMB_MMV";
+        };
     };
 
     keymap {
@@ -113,11 +120,11 @@
 
         UE {
             bindings = <
-&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &rmb_kp W  &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &rmb_kp A  &rmb_kp S  &rmb_kp D  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans              &trans              &trans               &trans  &trans  &trans
+&trans  &trans     &rmb_kp W  &trans     &trans  &trans    &trans  &trans              &rmb_mmv MOVE_UP    &trans               &trans  &trans  &trans
+&trans  &rmb_kp A  &rmb_kp S  &rmb_kp D  &trans  &trans    &trans  &rmb_mmv MOVE_LEFT  &rmb_mmv MOVE_DOWN  &rmb_mmv MOVE_RIGHT  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans              &trans              &trans               &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans              &trans              &trans               &trans  &trans
             >;
 
             label = "UE";
