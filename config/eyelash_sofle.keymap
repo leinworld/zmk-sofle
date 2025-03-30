@@ -47,6 +47,15 @@
     behaviors {
     };
 
+    macros {
+        rmb_kp: rmb_kp {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings = <&mkp MB2 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+            label = "RMB_KP";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -56,7 +65,7 @@
 &kp TAB           &kp Q     &kp W         &kp E         &kp R   &kp T     &msc SCRL_DOWN   &kp Y      &kp U      &kp I             &kp O    &kp P       &kp BSLH
 &kp LEFT_CONTROL  &kp A     &kp S         &kp D         &kp F   &kp G     &msc SCRL_LEFT   &kp H      &kp J      &kp K             &kp L    &kp SEMI    &kp APOS
 &kp LSHFT         &kp Z     &kp X         &kp C         &kp V   &kp B     &msc SCRL_RIGHT  &kp N      &kp M      &kp COMMA         &kp DOT  &kp FSLH    &kp RIGHT_SHIFT
-&kp C_MUTE        &kp CAPS  &kp LEFT_GUI  &kp LEFT_ALT  &mo 3   &mo 4     &mkp MB3         &kp ENTER  &kp SPACE  &kp LANG_HANGEUL  &tog 2   &kp DELETE
+&kp C_MUTE        &kp CAPS  &kp LEFT_GUI  &kp LEFT_ALT  &mo 3   &mo 5     &mkp MB3         &kp ENTER  &kp SPACE  &kp LANG_HANGEUL  &tog 2   &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -102,9 +111,21 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
+        UE {
+            bindings = <
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &rmb_kp W  &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &rmb_kp A  &rmb_kp S  &rmb_kp D  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "UE";
+        };
+
         ToLayer {
             bindings = <
-&trans  &to 0   &to 1   &to 2   &to 3   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &to 0   &to 1   &to 2   &to 3   &to 4     &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
