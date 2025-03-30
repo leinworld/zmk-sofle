@@ -140,11 +140,11 @@
 
         UE {
             bindings = <
-&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans              &trans              &trans               &trans  &trans  &trans
-&trans  &trans     &rmb_kp W  &trans     &trans  &trans    &trans  &trans              &rmb_mmv MOVE_UP    &trans               &trans  &trans  &trans
-&trans  &rmb_kp A  &rmb_kp S  &rmb_kp D  &trans  &trans    &trans  &rmb_mmv MOVE_LEFT  &rmb_mmv MOVE_DOWN  &rmb_mmv MOVE_RIGHT  &trans  &trans  &trans
-&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans              &trans              &trans               &trans  &trans  &trans
-&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans              &trans              &trans               &trans  &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans              &trans              &trans               &trans  &trans
+&trans  &trans     &rmb_kp W  &trans     &trans  &trans    &trans  &trans  &trans              &rmb_mmv MOVE_UP    &trans               &trans  &trans
+&trans  &rmb_kp A  &rmb_kp S  &rmb_kp D  &trans  &trans    &trans  &trans  &rmb_mmv MOVE_LEFT  &rmb_mmv MOVE_DOWN  &rmb_mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans              &trans              &trans               &trans  &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans  &trans              &trans              &trans               &trans
             >;
 
             label = "UE";
