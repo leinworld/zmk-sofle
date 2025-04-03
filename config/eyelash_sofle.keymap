@@ -128,11 +128,11 @@
         Sub {
             display-name = "Sub";
             bindings = <
-&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &mmv MOVE_UP     &kp F6     &kp F7    &kp F8      &kp F9     &kp F10           &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &kp PG_UP  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans     &trans    &kp INSERT  &kp F11    &kp F12           &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans     &trans    &trans      &trans     &trans
+&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &mmv MOVE_UP     &kp F6           &kp F7    &kp F8      &kp F9     &kp F10           &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &kp PG_UP        &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
+&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &kp PAUSE_BREAK  &trans    &kp INSERT  &kp F11    &kp F12           &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans           &trans    &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
