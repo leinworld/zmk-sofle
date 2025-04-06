@@ -57,13 +57,13 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - Base
-  - Base
+  - NavAndFunction
+  - NumAndSymbols
   - '&mkp MB3'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - LANG HANGEUL
-  - {t: NavAndFunction, h: toggle}
+  - {t: DeviveCtrl, h: toggle}
   - $$mdi:backspace-reverse-outline$$
   NavAndFunction:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -89,7 +89,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
+  - INS
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -115,14 +115,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - END
   - PgDn
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -188,7 +188,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
