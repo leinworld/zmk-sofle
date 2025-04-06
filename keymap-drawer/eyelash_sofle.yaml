@@ -136,9 +136,9 @@ layers:
   - {t: \, s: '|'}
   - '|'
   - {t: /, s: '?'}
-  - '?'
+  - '{'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '}'
   - KP 7
   - KP 8
   - KP 9
