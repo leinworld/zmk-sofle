@@ -86,7 +86,7 @@ layers:
   - F4
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-high$$
   - HOME
   - PG UP
   - INS
@@ -97,7 +97,7 @@ layers:
   - F6
   - F7
   - F8
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -112,7 +112,7 @@ layers:
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-low$$
   - END
   - PgDn
   - $$mdi:backspace-reverse-outline$$
