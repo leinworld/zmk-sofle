@@ -83,6 +83,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        mo3 {
+            bindings = <&mo 3>;
+            key-positions = <56 57>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
