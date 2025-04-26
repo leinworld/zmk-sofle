@@ -81,6 +81,20 @@
 
             label = "RMB_MMV";
         };
+
+        vs_alt_file: vs_alt_file {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LC(K)>,
+                <&macro_release>,
+                <&macro_wait_time 50>,
+                <&macro_press>,
+                <&kp LC(O)>;
+
+            label = "VS_ALT_FILE";
+        };
     };
 
     combos {
