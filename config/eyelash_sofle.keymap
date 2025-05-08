@@ -95,6 +95,55 @@
 
             label = "VS_ALT_FILE";
         };
+
+        vs_debug: vs_debug {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F5>;
+            label = "VS_DEBUG";
+        };
+
+        vs_cancelbuild: vs_cancelbuild {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(PAUSE_BREAK)>;
+            label = "VS_CANCELBUILD";
+        };
+
+        vs_goto: vs_goto {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F12>;
+            label = "VS_GOTO";
+        };
+
+        vs_bp: vs_bp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F9>;
+            label = "VS_BP";
+        };
+
+        vs_disbp: vs_disbp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(F9)>;
+            label = "VS_DISBP";
+        };
+
+        vs_f10: vs_f10 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F10>;
+            label = "VS_F10";
+        };
+
+        vs_f11: vs_f11 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F11>;
+            label = "VS_F11";
+        };
     };
 
     combos {
@@ -103,6 +152,11 @@
         mo3 {
             bindings = <&mo 3>;
             key-positions = <56 57>;
+        };
+
+        tog_macro {
+            bindings = <&tog 4>;
+            key-positions = <35 36>;
         };
     };
 
@@ -158,6 +212,18 @@
 
             sensor-bindings = <&scroll_encoder>;
             label = "DeviveCtrl";
+        };
+
+        macros {
+            bindings = <
+&trans  &trans     &trans   &trans   &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans   &trans   &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &vs_bp     &vs_f10  &vs_f11  &vs_goto  &vs_debug    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &vs_disbp  &trans   &trans   &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans   &trans   &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "macros";
         };
     };
 };
