@@ -649,6 +649,13 @@ rect.held, rect.combo.held {
 <text x="756" y="144" class="combo tap layer-activator">macros</text>
 </a><text x="756" y="154" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<a href="#macros">
+<text x="168" y="144" class="combo tap layer-activator">macros</text>
+</a><a href="#macros">
+<text x="168" y="154" class="combo hold layer-activator">macros</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-NavAndFunction">
@@ -988,6 +995,13 @@ rect.held, rect.combo.held {
 <text x="756" y="144" class="combo tap layer-activator">macros</text>
 </a><text x="756" y="154" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<a href="#macros">
+<text x="168" y="144" class="combo tap layer-activator">macros</text>
+</a><a href="#macros">
+<text x="168" y="154" class="combo hold layer-activator">macros</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-NumAndSymbols">
@@ -1333,6 +1347,13 @@ rect.held, rect.combo.held {
 <text x="756" y="144" class="combo tap layer-activator">macros</text>
 </a><text x="756" y="154" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<a href="#macros">
+<text x="168" y="144" class="combo tap layer-activator">macros</text>
+</a><a href="#macros">
+<text x="168" y="154" class="combo hold layer-activator">macros</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-DeviveCtrl">
@@ -1690,6 +1711,13 @@ rect.held, rect.combo.held {
 <text x="756" y="144" class="combo tap layer-activator">macros</text>
 </a><text x="756" y="154" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<a href="#macros">
+<text x="168" y="144" class="combo tap layer-activator">macros</text>
+</a><a href="#macros">
+<text x="168" y="154" class="combo hold layer-activator">macros</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1553)" class="layer-macros">
@@ -1835,15 +1863,15 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">&amp;vs_bp</text>
 </g>
-<g transform="translate(140, 147)" class="key keypos-28">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap"><tspan style="font-size: 86%">&amp;vs_f10</tspan></text>
+<g transform="translate(140, 147)" class="key held keypos-28">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
+<text x="0" y="-4" class="key held tap"><tspan style="font-size: 86%">&amp;vs_f10</tspan></text>
 </g>
-<g transform="translate(196, 140)" class="key keypos-29">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap"><tspan style="font-size: 86%">&amp;vs_f11</tspan></text>
+<g transform="translate(196, 140)" class="key held keypos-29">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
+<text x="0" y="-4" class="key held tap"><tspan style="font-size: 86%">&amp;vs_f11</tspan></text>
 </g>
 <g transform="translate(252, 147)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2026,6 +2054,13 @@ rect.held, rect.combo.held {
 <text x="756" y="144" class="combo tap layer-activator">macros</text>
 </a><text x="756" y="154" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<a href="#macros">
+<text x="168" y="144" class="combo tap layer-activator">macros</text>
+</a><a href="#macros">
+<text x="168" y="154" class="combo hold layer-activator">macros</text>
+</a></g>
 </g>
 </g>
 </svg>
