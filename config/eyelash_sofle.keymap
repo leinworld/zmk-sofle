@@ -230,11 +230,11 @@
 
         macros {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans    &trans        &trans   &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &vs_goto  &vs_alt_file  &trans   &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &vs_debug  &vs_bp    &vs_f10       &vs_f11  &vs_cancelbuild  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans    &trans        &trans   &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans    &trans        &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &trans    &trans         &trans   &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(MINUS)    &vs_goto  &vs_alt_file   &trans   &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &vs_debug        &vs_bp    &vs_f10        &vs_f11  &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &vs_cancelbuild  &trans    &kp LC(COMMA)  &trans   &kp LS(LC(F))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &trans    &trans         &trans   &trans
             >;
 
             label = "macros";
