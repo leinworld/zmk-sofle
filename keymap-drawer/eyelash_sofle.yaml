@@ -332,3 +332,7 @@ combos:
   k: {t: macros, h: toggle}
 - p: [28, 29]
   k: {t: macros, h: macros}
+- p: [30, 29]
+  k: Ctl+C
+- p: [43, 42]
+  k: Ctl+V
