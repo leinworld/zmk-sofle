@@ -172,6 +172,16 @@
             bindings = <&mo_sl 4 4>;
             key-positions = <28 29>;
         };
+
+        Copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <30 29>;
+        };
+
+        Paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <43 42>;
+        };
     };
 
     keymap {
