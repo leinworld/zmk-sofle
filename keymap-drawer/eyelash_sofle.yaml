@@ -336,3 +336,7 @@ combos:
   k: Ctl+C
 - p: [43, 42]
   k: Ctl+V
+- p: [40, 41]
+  k: Ctl+Z
+- p: [27, 28]
+  k: Ctl+Y
