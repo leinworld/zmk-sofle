@@ -342,3 +342,5 @@ combos:
   k: Ctl+Y
 - p: [27, 28, 29, 30]
   k: RETURN
+- p: [26, 27]
+  k: Ctl+A
