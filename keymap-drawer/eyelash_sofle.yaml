@@ -344,3 +344,5 @@ combos:
   k: RETURN
 - p: [26, 27]
   k: Ctl+A
+- p: [16, 17]
+  k: $$mdi:backspace-reverse-outline$$
