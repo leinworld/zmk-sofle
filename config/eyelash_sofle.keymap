@@ -182,6 +182,16 @@
             bindings = <&kp LC(V)>;
             key-positions = <43 42>;
         };
+
+        Undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <40 41>;
+        };
+
+        Redo {
+            bindings = <&kp LC(Y)>;
+            key-positions = <27 28>;
+        };
     };
 
     keymap {
