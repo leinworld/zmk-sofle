@@ -211,6 +211,11 @@
             bindings = <&kp LC(A)>;
             key-positions = <26 27>;
         };
+
+        combo_del {
+            bindings = <&kp DELETE>;
+            key-positions = <16 17>;
+        };
     };
 
     keymap {
