@@ -343,8 +343,8 @@ layers:
   - Q
   - W
   - E
-  - Ctl+Z
-  - Ctl+Y
+  - R
+  - T
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
