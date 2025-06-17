@@ -216,6 +216,11 @@
             bindings = <&kp DELETE>;
             key-positions = <16 17>;
         };
+
+        toggle_uelh {
+            bindings = <&tog 5>;
+            key-positions = <16 21>;
+        };
     };
 
     keymap {
@@ -282,6 +287,16 @@
             >;
 
             label = "macros";
+        };
+
+        UE_LH {
+            bindings = <
+&kp ESC          &kp N1  &kp N2   &kp N3        &kp N4     &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC          &kp Q   &kp W    &kp E         &kp LC(Z)  &kp LC(Y)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&mt LCTRL GRAVE  &kp A   &kp S    &kp D         &kp F      &kp G        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT        &kp Z   &kp X    &kp C         &kp V      &kp B        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans  &kp TAB  &kp LEFT_ALT  &kp SPACE  &kp ENTER    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
