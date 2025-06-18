@@ -62,7 +62,7 @@ layers:
   - '&mkp MB3'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: LANG HANGEUL, h: '$$mdi:apple-keyboard-option$$'}
+  - LANG HANGEUL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   NavAndFunction:
