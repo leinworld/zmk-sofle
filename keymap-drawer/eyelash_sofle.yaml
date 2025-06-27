@@ -308,7 +308,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&vs_cancelbuild'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+F11
   - {t: 'Ctl+,', s: Ctl+<}
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+F
