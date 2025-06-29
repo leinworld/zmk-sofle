@@ -176,11 +176,6 @@
             key-positions = <56 57>;
         };
 
-        tog_macro {
-            bindings = <&tog 4>;
-            key-positions = <35 36>;
-        };
-
         macros_combo {
             bindings = <&mo 4>;
             key-positions = <28 29>;
@@ -224,6 +219,11 @@
         toggle_uelh {
             bindings = <&tog 5>;
             key-positions = <40 41 42 43>;
+        };
+
+        cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <30 28>;
         };
     };
 
@@ -281,7 +281,7 @@
             label = "DeviveCtrl";
         };
 
-        macros {
+        macros_r {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &trans           &trans         &trans   &trans         &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(MINUS)    &vs_goto         &vs_alt_file   &trans   &trans         &trans
@@ -290,7 +290,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &trans           &trans         &trans   &trans
             >;
 
-            label = "macros";
+            label = "macros_r";
         };
 
         UE_LH {
