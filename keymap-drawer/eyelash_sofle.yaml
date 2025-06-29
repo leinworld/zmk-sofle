@@ -260,7 +260,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  macros:
+  macros_r:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -393,10 +393,8 @@ layers:
 combos:
 - p: [56, 57]
   k: DeviveCtrl
-- p: [35, 36]
-  k: {t: macros, h: toggle}
 - p: [28, 29]
-  k: macros
+  k: macros_r
 - p: [30, 29]
   k: Ctl+C
 - p: [43, 42]
@@ -413,3 +411,5 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
 - p: [40, 41, 42, 43]
   k: {t: UE_LH, h: toggle}
+- p: [30, 28]
+  k: Ctl+X
