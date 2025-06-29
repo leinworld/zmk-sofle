@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-space$$', h: NavAndFunction}
-  - NumAndSymbols
+  - {t: '$$mdi:keyboard-return$$', h: NumAndSymbols}
   - '&mkp MB3'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
@@ -403,8 +403,6 @@ combos:
   k: Ctl+Z
 - p: [27, 28]
   k: Ctl+Y
-- p: [27, 28, 29, 30]
-  k: RETURN
 - p: [26, 27]
   k: Ctl+A
 - p: [16, 17]

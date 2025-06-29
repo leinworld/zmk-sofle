@@ -598,8 +598,9 @@ rect.held, rect.combo.held {
 <g transform="translate(389, 294) rotate(30.0)" class="key keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-return"/>
 <a href="#NumAndSymbols">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">NumAndSym…</tspan></text>
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">NumAndSym…</tspan></text>
 </a></g>
 <g transform="translate(462, 91)" class="key keypos-58">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -662,20 +663,14 @@ rect.held, rect.combo.held {
 <text x="112" y="158" class="combo tap">Ctl+Y</text>
 </g>
 <g class="combo combopos-6">
-<path d="M168,151 l-66,14" class="combo"/>
-<path d="M168,151 l65,-3" class="combo"/>
-<rect rx="6" ry="6" x="154" y="138" width="28" height="26" class="combo"/>
-<text x="168" y="151" class="combo tap">RETURN</text>
-</g>
-<g class="combo combopos-7">
 <rect rx="6" ry="6" x="42" y="155" width="28" height="26" class="combo"/>
 <text x="56" y="168" class="combo tap">Ctl+A</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="215" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-8">
 <path d="M168,207 l-66,14" class="combo"/>
 <path d="M168,207 l65,-3" class="combo"/>
 <rect rx="6" ry="6" x="154" y="194" width="28" height="26" class="combo"/>
@@ -683,7 +678,7 @@ rect.held, rect.combo.held {
 <text x="168" y="207" class="combo tap layer-activator">UE_LH</text>
 </a><text x="168" y="218" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-9">
 <path d="M196,147 l37,0" class="combo"/>
 <path d="M196,147 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="182" y="134" width="28" height="26" class="combo"/>
@@ -1046,20 +1041,14 @@ rect.held, rect.combo.held {
 <text x="112" y="158" class="combo tap">Ctl+Y</text>
 </g>
 <g class="combo combopos-6">
-<path d="M168,151 l-66,14" class="combo"/>
-<path d="M168,151 l65,-3" class="combo"/>
-<rect rx="6" ry="6" x="154" y="138" width="28" height="26" class="combo"/>
-<text x="168" y="151" class="combo tap">RETURN</text>
-</g>
-<g class="combo combopos-7">
 <rect rx="6" ry="6" x="42" y="155" width="28" height="26" class="combo"/>
 <text x="56" y="168" class="combo tap">Ctl+A</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="215" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-8">
 <path d="M168,207 l-66,14" class="combo"/>
 <path d="M168,207 l65,-3" class="combo"/>
 <rect rx="6" ry="6" x="154" y="194" width="28" height="26" class="combo"/>
@@ -1067,7 +1056,7 @@ rect.held, rect.combo.held {
 <text x="168" y="207" class="combo tap layer-activator">UE_LH</text>
 </a><text x="168" y="218" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-9">
 <path d="M196,147 l37,0" class="combo"/>
 <path d="M196,147 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="182" y="134" width="28" height="26" class="combo"/>
@@ -1434,20 +1423,14 @@ rect.held, rect.combo.held {
 <text x="112" y="158" class="combo tap">Ctl+Y</text>
 </g>
 <g class="combo combopos-6">
-<path d="M168,151 l-66,14" class="combo"/>
-<path d="M168,151 l65,-3" class="combo"/>
-<rect rx="6" ry="6" x="154" y="138" width="28" height="26" class="combo"/>
-<text x="168" y="151" class="combo tap">RETURN</text>
-</g>
-<g class="combo combopos-7">
 <rect rx="6" ry="6" x="42" y="155" width="28" height="26" class="combo"/>
 <text x="56" y="168" class="combo tap">Ctl+A</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="215" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-8">
 <path d="M168,207 l-66,14" class="combo"/>
 <path d="M168,207 l65,-3" class="combo"/>
 <rect rx="6" ry="6" x="154" y="194" width="28" height="26" class="combo"/>
@@ -1455,7 +1438,7 @@ rect.held, rect.combo.held {
 <text x="168" y="207" class="combo tap layer-activator">UE_LH</text>
 </a><text x="168" y="218" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-9">
 <path d="M196,147 l37,0" class="combo"/>
 <path d="M196,147 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="182" y="134" width="28" height="26" class="combo"/>
@@ -1834,20 +1817,14 @@ rect.held, rect.combo.held {
 <text x="112" y="158" class="combo tap">Ctl+Y</text>
 </g>
 <g class="combo combopos-6">
-<path d="M168,151 l-66,14" class="combo"/>
-<path d="M168,151 l65,-3" class="combo"/>
-<rect rx="6" ry="6" x="154" y="138" width="28" height="26" class="combo"/>
-<text x="168" y="151" class="combo tap">RETURN</text>
-</g>
-<g class="combo combopos-7">
 <rect rx="6" ry="6" x="42" y="155" width="28" height="26" class="combo"/>
 <text x="56" y="168" class="combo tap">Ctl+A</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="215" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-8">
 <path d="M168,207 l-66,14" class="combo"/>
 <path d="M168,207 l65,-3" class="combo"/>
 <rect rx="6" ry="6" x="154" y="194" width="28" height="26" class="combo"/>
@@ -1855,7 +1832,7 @@ rect.held, rect.combo.held {
 <text x="168" y="207" class="combo tap layer-activator">UE_LH</text>
 </a><text x="168" y="218" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-9">
 <path d="M196,147 l37,0" class="combo"/>
 <path d="M196,147 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="182" y="134" width="28" height="26" class="combo"/>
@@ -2215,20 +2192,14 @@ rect.held, rect.combo.held {
 <text x="112" y="158" class="combo tap">Ctl+Y</text>
 </g>
 <g class="combo combopos-6">
-<path d="M168,151 l-66,14" class="combo"/>
-<path d="M168,151 l65,-3" class="combo"/>
-<rect rx="6" ry="6" x="154" y="138" width="28" height="26" class="combo"/>
-<text x="168" y="151" class="combo tap">RETURN</text>
-</g>
-<g class="combo combopos-7">
 <rect rx="6" ry="6" x="42" y="155" width="28" height="26" class="combo"/>
 <text x="56" y="168" class="combo tap">Ctl+A</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="215" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-8">
 <path d="M168,207 l-66,14" class="combo"/>
 <path d="M168,207 l65,-3" class="combo"/>
 <rect rx="6" ry="6" x="154" y="194" width="28" height="26" class="combo"/>
@@ -2236,7 +2207,7 @@ rect.held, rect.combo.held {
 <text x="168" y="207" class="combo tap layer-activator">UE_LH</text>
 </a><text x="168" y="218" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-9">
 <path d="M196,147 l37,0" class="combo"/>
 <path d="M196,147 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="182" y="134" width="28" height="26" class="combo"/>
@@ -2600,20 +2571,14 @@ rect.held, rect.combo.held {
 <text x="112" y="158" class="combo tap">Ctl+Y</text>
 </g>
 <g class="combo combopos-6">
-<path d="M168,151 l-66,14" class="combo"/>
-<path d="M168,151 l65,-3" class="combo"/>
-<rect rx="6" ry="6" x="154" y="138" width="28" height="26" class="combo"/>
-<text x="168" y="151" class="combo tap">RETURN</text>
-</g>
-<g class="combo combopos-7">
 <rect rx="6" ry="6" x="42" y="155" width="28" height="26" class="combo"/>
 <text x="56" y="168" class="combo tap">Ctl+A</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="215" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-8">
 <path d="M168,207 l-66,14" class="combo"/>
 <path d="M168,207 l65,-3" class="combo"/>
 <rect rx="6" ry="6" x="154" y="194" width="28" height="26" class="combo"/>
@@ -2621,7 +2586,7 @@ rect.held, rect.combo.held {
 <text x="168" y="207" class="combo tap layer-activator">UE_LH</text>
 </a><text x="168" y="218" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-9">
 <path d="M196,147 l37,0" class="combo"/>
 <path d="M196,147 l-37,0" class="combo"/>
 <rect rx="6" ry="6" x="182" y="134" width="28" height="26" class="combo"/>
