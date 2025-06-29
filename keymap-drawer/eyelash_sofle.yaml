@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '''', h: '$$mdi:apple-keyboard-option$$', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -90,7 +90,7 @@ layers:
   - HOME
   - PG UP
   - INS
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - F5
@@ -103,7 +103,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - '&vs_alt_file'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F9
@@ -396,7 +396,7 @@ combos:
 - p: [35, 36]
   k: {t: macros, h: toggle}
 - p: [28, 29]
-  k: {t: macros, h: macros}
+  k: macros
 - p: [30, 29]
   k: Ctl+C
 - p: [43, 42]
