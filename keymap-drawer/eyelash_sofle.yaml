@@ -84,7 +84,7 @@ layers:
   - F2
   - F3
   - F4
-  - Gui+PRINTSCREEN
+  - F13
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-high$$
   - HOME
