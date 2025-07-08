@@ -67,7 +67,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   NavAndFunction:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+S
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
