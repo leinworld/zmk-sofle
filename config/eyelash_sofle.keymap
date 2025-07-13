@@ -48,37 +48,27 @@
         tap-ms = <30>;
     };
 
-    behaviors {
+    tlt: tlt {
+        compatible = "zmk,behavior-hold-tap";
+        label = "TabPreferedLT";
+        bindings = <&mo>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <350>;
+        quick-tap-ms = <160>;
+        flavor = "tap-preferred";
     };
 
-    macros {
-        vs_bp: vs_bp {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp F9>;
-            label = "VS_BP";
-        };
+    hlt: hlt {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HoldPreferedTap";
+        bindings = <&mo>, <&kp>;
 
-        vs_disbp: vs_disbp {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(F9)>;
-            label = "VS_DISBP";
-        };
+        #binding-cells = <2>;
+        tapping-term-ms = <150>;
+    };
 
-        vs_f10: vs_f10 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp F10>;
-            label = "VS_F10";
-        };
-
-        vs_f11: vs_f11 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp F11>;
-            label = "VS_F11";
-        };
+    behaviors {
     };
 
     combos {
@@ -89,8 +79,8 @@
             key-positions = <56 57>;
         };
 
-        macros_combo {
-            bindings = <&mo 4>;
+        OslLayer {
+            bindings = <&sl 4>;
             key-positions = <28 29>;
         };
 
@@ -124,14 +114,14 @@
             key-positions = <16 17>;
         };
 
-        toggle_uelh {
-            bindings = <&tog 0>;
-            key-positions = <40 41 42 43>;
-        };
-
         cut {
             bindings = <&kp LC(X)>;
             key-positions = <30 28>;
+        };
+
+        vsrh {
+            bindings = <&mo 5>;
+            key-positions = <15 16>;
         };
     };
 
@@ -189,16 +179,28 @@
             label = "DeviveCtrl";
         };
 
-        macros_r {
+        OSLMacros {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans           &trans   &trans   &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans           &trans   &trans   &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &vs_disbp  &vs_bp           &vs_f10  &vs_f11  &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &kp LC(LA(F11))  &trans   &trans   &kp LS(LC(F))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans           &trans   &trans   &trans
+&none  &none  &none      &none          &none            &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none      &none          &none            &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none  &kp LC(S)  &kp LC(LS(S))  &kp LC(LS(F))    &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none      &none          &kp LC(LA(F11))  &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none      &none          &none            &none    &none  &none  &none  &none  &none  &none
             >;
 
-            label = "macros_r";
+            label = "OSLMacros";
+        };
+
+        VS_rh {
+            bindings = <
+&none  &none  &none  &none  &none  &none    &none  &none   &none    &none    &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none   &none    &none    &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &kp F9  &kp F10  &kp F11  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none   &none    &none    &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none   &none    &none    &none  &none
+            >;
+
+            label = "VS_rh";
         };
     };
 };
