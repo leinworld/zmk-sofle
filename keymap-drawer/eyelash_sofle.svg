@@ -680,6 +680,11 @@ rect.held, rect.combo.held {
 <a href="#VS_rh">
 <text x="168" y="88" class="combo tap layer-activator">VS_rh</text>
 </a></g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">`</text>
+<text x="168" y="188" class="combo shifted">~</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-NavAndFunction">
@@ -1060,6 +1065,11 @@ rect.held, rect.combo.held {
 <a href="#VS_rh">
 <text x="168" y="88" class="combo tap layer-activator">VS_rh</text>
 </a></g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">`</text>
+<text x="168" y="188" class="combo shifted">~</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-NumAndSymbols">
@@ -1440,6 +1450,11 @@ rect.held, rect.combo.held {
 <a href="#VS_rh">
 <text x="168" y="88" class="combo tap layer-activator">VS_rh</text>
 </a></g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">`</text>
+<text x="168" y="188" class="combo shifted">~</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-DeviveCtrl">
@@ -1832,6 +1847,11 @@ rect.held, rect.combo.held {
 <a href="#VS_rh">
 <text x="168" y="88" class="combo tap layer-activator">VS_rh</text>
 </a></g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">`</text>
+<text x="168" y="188" class="combo shifted">~</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1553)" class="layer-OSLMacros">
@@ -2209,6 +2229,11 @@ rect.held, rect.combo.held {
 <a href="#VS_rh">
 <text x="168" y="88" class="combo tap layer-activator">VS_rh</text>
 </a></g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">`</text>
+<text x="168" y="188" class="combo shifted">~</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1941)" class="layer-VS_rh">
@@ -2580,6 +2605,11 @@ rect.held, rect.combo.held {
 <a href="#VS_rh">
 <text x="168" y="88" class="combo tap layer-activator">VS_rh</text>
 </a></g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
+<text x="168" y="200" class="combo tap">`</text>
+<text x="168" y="188" class="combo shifted">~</text>
+</g>
 </g>
 </g>
 </svg>
