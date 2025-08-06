@@ -98,7 +98,7 @@ layers:
   - F7
   - F8
   - Ctl+PAUSE BREAK
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+Gui+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -111,7 +111,7 @@ layers:
   - F11
   - F12
   - AC BACK
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+Gui+$$mdi:arrow-right-bold$$
   - $$mdi:volume-low$$
   - END
   - PgDn
