@@ -129,6 +129,11 @@
             bindings = <&kp GRAVE>;
             key-positions = <41 42>;
         };
+
+        toggle_gaming {
+            bindings = <&tog 6>;
+            key-positions = <27 28 29 30>;
+        };
     };
 
     keymap {
@@ -207,6 +212,20 @@
             >;
 
             label = "VS_rh";
+        };
+
+        Gaming {
+            label = "Gaming";
+            display-name = "Gaming";
+            bindings = <
+&kp ESCAPE  &kp N1  &kp N2        &kp N3     &kp N4     &kp N5          &msc SCRL_UP     &kp N6     &kp N7        &kp N8     &kp N9   &kp N0    &kp BACKSPACE
+&kp ESCAPE  &kp Q   &kp W         &kp E      &kp R      &kp T           &msc SCRL_DOWN   &kp Y      &kp U         &kp I      &kp O    &kp P     &kp BACKSPACE
+&kp TAB     &kp A   &kp S         &kp D      &kp F      &kp G           &msc SCRL_LEFT   &kp H      &kp J         &kp K      &kp L    &kp SEMI  &mt LEFT_ALT SQT
+&kp LSHFT   &kp Z   &kp X         &kp C      &kp V      &kp B           &msc SCRL_RIGHT  &kp N      &kp M         &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+&kp C_MUTE  &none   &kp LEFT_ALT  &kp LCTRL  &kp SPACE  &kp LEFT_GUI    &mkp MB3         &kp ENTER  &tlt 2 SPACE  &none      &none    &none
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
     };
 };
