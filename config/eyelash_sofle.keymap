@@ -193,7 +193,7 @@
         OSLMacros {
             bindings = <
 &none  &none             &none              &none          &none            &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none             &none              &none          &none            &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none             &none              &none          &kp LA(F4)       &none    &none  &none  &none  &none  &none  &none  &none
 &none  &kp LA(P)         &kp LC(S)          &kp LC(LS(S))  &kp LC(LS(F))    &none    &none  &none  &none  &none  &none  &none  &none
 &none  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &none          &kp LC(LA(F11))  &none    &none  &none  &none  &none  &none  &none  &none
 &none  &none             &none              &none          &none            &none    &none  &none  &none  &none  &none  &none
