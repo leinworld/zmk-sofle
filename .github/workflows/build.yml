@@ -7,6 +7,5 @@ on:
 
 jobs:
   build:
-  runs-on: ubuntu-22.04
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v3
 
