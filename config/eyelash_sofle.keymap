@@ -74,6 +74,8 @@
         label = "LTDC";
         #binding-cells = <0>;
         bindings = <&mo 1>, <&tog 2>;
+
+        tapping-term-ms = <250>;
     };
 
     behaviors {
